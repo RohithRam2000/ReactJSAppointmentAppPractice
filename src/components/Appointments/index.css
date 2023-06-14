@@ -1,0 +1,107 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+}
+.bg-container {
+  background-image: linear-gradient(#fbc7d4, #9392c0);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background-color: #ffffff;
+  padding: 20px 50px;
+  border-radius: 10px;
+  font-family: 'Roboto';
+}
+.top-part {
+  width: 750px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #b5b7c4;
+  display: flex;
+  justify-content: space-between;
+}
+.part-1 {
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  font-size: 26px;
+  color: #171f46;
+  margin-bottom: 40px;
+}
+.form-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.label-element {
+  color: #b5b7c4;
+  font-size: 10px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.input-element {
+  width: 250px;
+  border: 1px solid #b5b7c4;
+  outline: none;
+  padding: 8px 12px;
+  font-family: 'Roboto';
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.button {
+  background-color: #8b5cf6;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  font-size: 12px;
+  font-family: 'Roboto';
+}
+.part-2 {
+  margin-top: 20px;
+}
+.part2-image {
+  width: 400px;
+}
+.bottom-part {
+  width: 750px;
+  margin-top: 10px;
+}
+.bottom-part-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 10px;
+}
+.bottom-part-title {
+  font-size: 20px;
+  color: #171f46;
+  margin: 0px;
+  padding: 0px;
+}
+.bottom-part-button {
+  background-color: #ffffff;
+  color: #9897f0;
+  border: 1px solid #9897f0;
+  border-radius: 10px;
+  padding: 3px 14px;
+  font-size: 11px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.appoint-items-container {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bottom-part-button2 {
+  background-color: #9897f0;
+  color: #ffffff;
+}
